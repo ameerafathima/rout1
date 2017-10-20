@@ -1,0 +1,29 @@
+<div style="font-weight: bold;
+margin: 10px;font-size: 150%;">Projects</div>
+
+<div id='search-text-input'>
+    <input type = "text"
+           id = "myText"
+           placeholder="search">
+</div>
+
+<a routerLink="/project/newproject"><button> Add Project</button></a>
+
+<table style="width:100%">
+    <tr>
+      <th align="left">NAME</th>
+      <th align="left">TYPE</th>
+      <th align="left">STATUS</th>
+      <th align="left">MANAGER</th>
+      <th align="left">DIRECTOR</th>
+      <th align="left">ACTION</th>
+    </tr>
+        <tr *ngFor="let i of results.data">
+          <td>{{i.Name}}</td>
+          <td>{{i.Type}}</td>
+          <td>{{i.Status}}</td>
+          <td>{{i.Manager}}</td>
+          <td>{{i.Director}}</td>
+        </tr>
+</table>
+     

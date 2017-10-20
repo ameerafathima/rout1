@@ -1,0 +1,40 @@
+#search-text-input{
+    float:left;
+    height:17px;
+    outline:0;
+    padding:0px; 
+    width:100%; 
+    margin-bottom:1%; 
+    
+}
+
+#myText {
+    width: 100%;
+    max-width: 1300px;
+}
+
+#header{
+    font-weight: bold;
+    font-size: 150%;
+    margin: 10px;
+}
+
+#myText1{
+    width: 100%;
+    max-width: 1300px;
+}
+
+#left{
+    float:left;
+     width:50%;
+   
+}
+
+#right{
+    float:right; 
+    width:50%;
+    
+}
+
+
+
